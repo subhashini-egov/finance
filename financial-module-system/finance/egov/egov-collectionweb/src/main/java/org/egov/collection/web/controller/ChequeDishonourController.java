@@ -52,7 +52,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.TreeMap;
 
-import javax.persistence.NoResultException;
+import jakarta.persistence.NoResultException;
 import javax.validation.Valid;
 
 import org.apache.commons.lang.StringUtils;
