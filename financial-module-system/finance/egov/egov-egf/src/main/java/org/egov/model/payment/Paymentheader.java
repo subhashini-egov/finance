@@ -50,7 +50,7 @@ package org.egov.model.payment;
 import java.math.BigDecimal;
 import java.util.Date;
 
-import javax.validation.constraints.NotNull;
+import jakarta.validation.constraints.NotNull;
 
 import org.egov.commons.Bankaccount;
 import org.egov.commons.CVoucherHeader;

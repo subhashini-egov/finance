@@ -49,8 +49,8 @@
 package org.egov.infra.microservice.models;
 
 import java.math.BigDecimal;
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Size;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
 
 import org.hibernate.validator.constraints.SafeHtml;
 

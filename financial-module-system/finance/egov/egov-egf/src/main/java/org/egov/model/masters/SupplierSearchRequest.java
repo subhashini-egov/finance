@@ -48,7 +48,7 @@
 
 package org.egov.model.masters;
 
-import javax.persistence.Column;
+import jakarta.persistence.Column;
 
 import org.egov.infra.persistence.validator.annotation.OptionalPattern;
 import org.egov.utils.FinancialConstants;

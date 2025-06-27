@@ -50,7 +50,7 @@ package org.egov.egf.web.controller.bankaccount;
 
 import java.util.List;
 
-import javax.validation.Valid;
+import jakarta.validation.Valid;
 
 import org.egov.commons.Bankaccount;
 import org.egov.commons.CChartOfAccounts;

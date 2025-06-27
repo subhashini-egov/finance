@@ -48,8 +48,8 @@
 
 package org.egov.infra.web.displaytag.export;
 
-import javax.swing.text.html.HTMLEditorKit;
-import javax.swing.text.html.parser.ParserDelegator;
+import jakarta.swing.text.html.HTMLEditorKit;
+import jakarta.swing.text.html.parser.ParserDelegator;
 import java.io.IOException;
 import java.io.Reader;
 

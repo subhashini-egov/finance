@@ -2,8 +2,8 @@ package org.egov.common.web.interceptor;
 
 import java.util.UUID;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
 import org.egov.common.web.contract.RequestContext;
 import org.slf4j.MDC;

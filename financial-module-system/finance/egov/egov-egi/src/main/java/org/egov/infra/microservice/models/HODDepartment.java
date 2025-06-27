@@ -40,7 +40,7 @@
 
 package org.egov.infra.microservice.models;
 
-import javax.validation.constraints.NotNull;
+import jakarta.validation.constraints.NotNull;
 
 import org.hibernate.validator.constraints.SafeHtml;
 

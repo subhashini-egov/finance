@@ -53,7 +53,7 @@ import org.egov.infra.admin.master.entity.Department;
 import org.egov.infra.admin.master.entity.User;
 import org.springframework.web.servlet.tags.RequestContextAwareTag;
 
-import javax.servlet.jsp.JspWriter;
+import jakarta.servlet.jsp.JspWriter;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;

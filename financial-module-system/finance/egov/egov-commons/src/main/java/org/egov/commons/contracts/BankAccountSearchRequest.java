@@ -48,8 +48,8 @@
 
 package org.egov.commons.contracts;
 
-import javax.persistence.EnumType;
-import javax.persistence.Enumerated;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
 
 import org.egov.commons.utils.BankAccountType;
 import org.egov.commons.utils.CommonsConstants;

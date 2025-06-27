@@ -53,7 +53,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 
-import javax.validation.Valid;
+import jakarta.validation.Valid;
 
 import org.egov.commons.Accountdetailtype;
 import org.egov.commons.contracts.AccountDetailTypeSearchRequest;

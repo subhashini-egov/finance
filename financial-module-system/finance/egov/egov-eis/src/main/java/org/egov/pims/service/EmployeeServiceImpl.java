@@ -89,8 +89,8 @@ import org.springframework.stereotype.Service;
 
 import javassist.tools.rmi.ObjectNotFoundException;
 
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.PersistenceContext;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;

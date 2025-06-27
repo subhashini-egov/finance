@@ -48,8 +48,8 @@
 
 package org.egov.infra.web.taglib;
 
-import javax.servlet.jsp.JspWriter;
-import javax.servlet.jsp.tagext.BodyTagSupport;
+import jakarta.servlet.jsp.JspWriter;
+import jakarta.servlet.jsp.tagext.BodyTagSupport;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;

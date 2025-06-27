@@ -51,8 +51,8 @@ package org.egov.infra.security.utils;
 import org.apache.commons.codec.binary.Hex;
 import org.egov.infra.exception.ApplicationRuntimeException;
 
-import javax.crypto.Mac;
-import javax.crypto.spec.SecretKeySpec;
+import jakarta.crypto.Mac;
+import jakarta.crypto.spec.SecretKeySpec;
 import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
 

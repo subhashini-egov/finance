@@ -1,6 +1,6 @@
 package org.egov.egf.web.controller.microservice;
 
-import javax.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletRequest;
 
 import org.egov.infra.microservice.models.RequestInfoWrapper;
 import org.egov.infra.microservice.utils.MicroserviceUtils;

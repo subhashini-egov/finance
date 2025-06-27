@@ -52,7 +52,7 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.validation.Valid;
+import jakarta.validation.Valid;
 
 import org.apache.commons.collections.CollectionUtils;
 import org.hibernate.validator.constraints.SafeHtml;

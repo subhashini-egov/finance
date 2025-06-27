@@ -50,7 +50,7 @@ package org.egov.egf.web.controller.bankbranch;
 
 import java.util.List;
 
-import javax.validation.Valid;
+import jakarta.validation.Valid;
 
 import org.egov.commons.Bankbranch;
 import org.egov.commons.contracts.BankBranchSearchRequest;

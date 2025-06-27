@@ -50,8 +50,8 @@ package org.egov.model.bills;
 import java.math.BigDecimal;
 import java.util.Date;
 
-import javax.validation.constraints.Min;
-import javax.validation.constraints.NotNull;
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotNull;
 
 // Generated Mar 10, 2008 12:54:41 PM by Hibernate Tools 3.2.0.b9
 
