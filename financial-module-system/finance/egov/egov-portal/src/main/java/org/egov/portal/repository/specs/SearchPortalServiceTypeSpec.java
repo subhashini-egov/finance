@@ -50,7 +50,7 @@ package org.egov.portal.repository.specs;
 import org.egov.portal.entity.PortalServiceType;
 import org.springframework.data.jpa.domain.Specification;
 
-import javax.persistence.criteria.Predicate;
+import jakarta.persistence.criteria.Predicate;
 
 public class SearchPortalServiceTypeSpec {
 

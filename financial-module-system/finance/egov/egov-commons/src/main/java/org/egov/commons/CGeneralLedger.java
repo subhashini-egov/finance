@@ -47,7 +47,7 @@
  */
 package org.egov.commons;
 
-import javax.persistence.Transient;
+import jakarta.persistence.Transient;
 import javax.validation.constraints.Digits;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;

@@ -54,7 +54,7 @@ import org.egov.infstr.models.EgChecklists;
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.SafeHtml;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 import java.math.BigDecimal;

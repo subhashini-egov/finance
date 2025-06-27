@@ -67,7 +67,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import javax.persistence.EntityNotFoundException;
+import jakarta.persistence.EntityNotFoundException;
 
 import org.apache.commons.lang.StringUtils;
 import org.apache.log4j.Logger;

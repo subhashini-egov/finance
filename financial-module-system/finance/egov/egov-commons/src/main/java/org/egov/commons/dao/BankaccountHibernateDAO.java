@@ -50,8 +50,8 @@ package org.egov.commons.dao;
 import java.util.List;
 import java.util.Set;
 
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.PersistenceContext;
 
 import org.egov.commons.Bankaccount;
 import org.hibernate.Query;

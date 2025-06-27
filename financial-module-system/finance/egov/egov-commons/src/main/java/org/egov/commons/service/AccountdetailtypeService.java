@@ -51,14 +51,14 @@ package org.egov.commons.service;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
-import javax.persistence.TypedQuery;
-import javax.persistence.criteria.CriteriaBuilder;
-import javax.persistence.criteria.CriteriaQuery;
-import javax.persistence.criteria.Predicate;
-import javax.persistence.criteria.Root;
-import javax.persistence.metamodel.Metamodel;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.PersistenceContext;
+import jakarta.persistence.TypedQuery;
+import jakarta.persistence.criteria.CriteriaBuilder;
+import jakarta.persistence.criteria.CriteriaQuery;
+import jakarta.persistence.criteria.Predicate;
+import jakarta.persistence.criteria.Root;
+import jakarta.persistence.metamodel.Metamodel;
 
 import org.egov.commons.Accountdetailtype;
 import org.egov.commons.contracts.AccountDetailTypeSearchRequest;
@@ -113,7 +113,7 @@ public class AccountdetailtypeService {
         final Root<Accountdetailtype> accountdetailtypes = createQuery.from(Accountdetailtype.class);
         createQuery.select(accountdetailtypes);
         final Metamodel m = entityManager.getMetamodel();
-        final javax.persistence.metamodel.EntityType<Accountdetailtype> tempAccountDetailType = m.entity(Accountdetailtype.class);
+        final jakarta.persistence.metamodel.EntityType<Accountdetailtype> tempAccountDetailType = m.entity(Accountdetailtype.class);
 
         final List<Predicate> predicates = new ArrayList<>();
         if (accountDetailTypeSearchRequest.getName() != null) {
