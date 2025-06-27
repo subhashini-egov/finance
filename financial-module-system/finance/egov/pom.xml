@@ -159,13 +159,13 @@
         <hibernate-version>5.1.10.Final</hibernate-version>
         <hibernate-search-version>5.5.8.Final</hibernate-search-version>
         <hibernate-validator-version>5.3.5.Final</hibernate-validator-version>
-        <javax-validation-version>1.1.0.Final</javax-validation-version>
-        <javax-servlet-api-version>1.0.0.Final</javax-servlet-api-version>
-        <javax-servlet-jstl-version>1.2.6-RC1</javax-servlet-jstl-version>
-        <javax-servlet-jsp-version>1.0.1.Final</javax-servlet-jsp-version>
-        <javax-jms-version>1.0.1.Final</javax-jms-version>
-        <javax-mail-version>1.5.6</javax-mail-version>
-        <javax-el-version>3.0.1-b08</javax-el-version>
+        <jakarta-validation-version>3.0.2</jakarta-validation-version>
+        <jakarta-servlet-api-version>6.0.0</jakarta-servlet-api-version>
+        <jakarta-servlet-jstl-version>2.0.0</jakarta-servlet-jstl-version>
+        <jakarta-servlet-jsp-version>3.0.0</jakarta-servlet-jsp-version>
+        <jakarta-jms-version>3.0.0</jakarta-jms-version>
+        <jakarta-mail-version>2.1.2</jakarta-mail-version>
+        <jakarta-el-version>5.0.1</jakarta-el-version>
         <xerces-version>2.11.0.SP5</xerces-version>
         <postgres-version>42.7.1</postgres-version>
 
@@ -312,9 +312,9 @@
                 <scope>provided</scope>
             </dependency>
             <dependency>
-                <groupId>javax.validation</groupId>
-                <artifactId>validation-api</artifactId>
-                <version>${javax-validation-version}</version>
+                <groupId>jakarta.validation</groupId>
+                <artifactId>jakarta.validation-api</artifactId>
+                <version>${jakarta-validation-version}</version>
                 <scope>provided</scope>
             </dependency>
             <!-- <dependency> <groupId>org.jadira.usertype</groupId> <artifactId>usertype.core</artifactId>
@@ -324,51 +324,51 @@
 
             <!-- SERVLET SPEC JBOSS DEPENDENCIES START -->
             <dependency>
-                <groupId>org.jboss.spec.javax.servlet</groupId>
+                <groupId>jakarta.servlet</groupId>
                 <artifactId>jboss-servlet-api_3.1_spec</artifactId>
-                <version>${javax-servlet-api-version}</version>
+                <version>${jakarta-servlet-api-version}</version>
                 <scope>provided</scope>
             </dependency>
             <dependency>
                 <groupId>org.apache.taglibs</groupId>
                 <artifactId>taglibs-standard-compat</artifactId>
-                <version>${javax-servlet-jstl-version}</version>
+                <version>${jakarta-servlet-jstl-version}</version>
                 <scope>provided</scope>
             </dependency>
             <dependency>
                 <groupId>org.apache.taglibs</groupId>
                 <artifactId>taglibs-standard-spec</artifactId>
-                <version>${javax-servlet-jstl-version}</version>
+                <version>${jakarta-servlet-jstl-version}</version>
                 <scope>provided</scope>
             </dependency>
             <dependency>
                 <groupId>org.apache.taglibs</groupId>
                 <artifactId>taglibs-standard-impl</artifactId>
-                <version>${javax-servlet-jstl-version}</version>
+                <version>${jakarta-servlet-jstl-version}</version>
                 <scope>provided</scope>
             </dependency>
             <dependency>
-                <groupId>org.jboss.spec.javax.servlet.jsp</groupId>
+                <groupId>jakarta.servlet.jsp</groupId>
                 <artifactId>jboss-jsp-api_2.3_spec</artifactId>
-                <version>${javax-servlet-jsp-version}</version>
+                <version>${jakarta-servlet-jsp-version}</version>
                 <scope>provided</scope>
             </dependency>
             <dependency>
-                <groupId>org.jboss.spec.javax.jms</groupId>
+                <groupId>jakarta.jms</groupId>
                 <artifactId>jboss-jms-api_2.0_spec</artifactId>
-                <version>${javax-jms-version}</version>
+                <version>${jakarta-jms-version}</version>
                 <scope>provided</scope>
             </dependency>
             <dependency>
-                <groupId>org.glassfish</groupId>
-                <artifactId>javax.el</artifactId>
-                <version>${javax-el-version}</version>
+                <groupId>jakarta.el</groupId>
+                <artifactId>jakarta.el-api</artifactId>
+                <version>${jakarta-el-version}</version>
                 <scope>provided</scope>
             </dependency>
             <dependency>
-                <groupId>javax.mail</groupId>
-                <artifactId>javax.mail-api</artifactId>
-                <version>${javax-mail-version}</version>
+                <groupId>jakarta.mail</groupId>
+                <artifactId>jakarta.mail-api</artifactId>
+                <version>${jakarta-mail-version}</version>
                 <scope>provided</scope>
             </dependency>
             <!-- SERVLET SPEC JBOSS DEPENDENCIES END -->
@@ -753,8 +753,8 @@
                 <version>${commons-email-version}</version>
                 <exclusions>
                     <exclusion>
-                        <groupId>javax.activation</groupId>
-                        <artifactId>activation</artifactId>
+                        <groupId>jakarta.activation</groupId>
+                        <artifactId>jakarta.activation-api</artifactId>
                     </exclusion>
                 </exclusions>
             </dependency>
@@ -1079,7 +1079,7 @@
     <dependencies>
         <!-- SERVLET SPEC JBOSS DEPENDENCIES START -->
         <dependency>
-            <groupId>org.jboss.spec.javax.servlet</groupId>
+            <groupId>jakarta.servlet</groupId>
             <artifactId>jboss-servlet-api_3.1_spec</artifactId>
         </dependency>
         <dependency>
@@ -1095,20 +1095,20 @@
             <artifactId>taglibs-standard-impl</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.jboss.spec.javax.servlet.jsp</groupId>
+            <groupId>jakarta.servlet.jsp</groupId>
             <artifactId>jboss-jsp-api_2.3_spec</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.jboss.spec.javax.jms</groupId>
+            <groupId>jakarta.jms</groupId>
             <artifactId>jboss-jms-api_2.0_spec</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.glassfish</groupId>
-            <artifactId>javax.el</artifactId>
+            <groupId>jakarta.el</groupId>
+            <artifactId>jakarta.el-api</artifactId>
         </dependency>
         <dependency>
-            <groupId>javax.mail</groupId>
-            <artifactId>javax.mail-api</artifactId>
+            <groupId>jakarta.mail</groupId>
+            <artifactId>jakarta.mail-api</artifactId>
         </dependency>
         <!-- SERVLET SPEC JBOSS DEPENDENCIES END -->
 

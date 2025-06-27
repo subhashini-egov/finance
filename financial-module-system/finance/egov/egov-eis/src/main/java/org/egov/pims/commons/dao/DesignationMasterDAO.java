@@ -55,8 +55,8 @@ import org.egov.pims.commons.Designation;
 import org.hibernate.Query;
 import org.hibernate.Session;
 
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.PersistenceContext;
 import java.io.Serializable;
 import java.util.Iterator;
 import java.util.LinkedHashMap;

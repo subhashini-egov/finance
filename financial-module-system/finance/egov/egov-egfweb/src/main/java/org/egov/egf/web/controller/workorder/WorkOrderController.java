@@ -50,7 +50,7 @@ package org.egov.egf.web.controller.workorder;
 import java.io.IOException;
 import java.util.List;
 
-import javax.validation.Valid;
+import jakarta.validation.Valid;
 
 import org.egov.commons.service.FundService;
 import org.egov.egf.masters.services.ContractorService;

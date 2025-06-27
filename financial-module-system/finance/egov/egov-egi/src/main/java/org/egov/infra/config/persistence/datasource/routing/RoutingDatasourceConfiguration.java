@@ -55,7 +55,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.core.env.Environment;
 import org.springframework.jndi.JndiObjectFactoryBean;
 
-import javax.sql.DataSource;
+import jakarta.sql.DataSource;
 import java.util.HashMap;
 import java.util.Map;
 

@@ -59,7 +59,7 @@ import org.springframework.scheduling.quartz.SchedulerFactoryBean;
 import org.springframework.scheduling.quartz.SimpleThreadPoolTaskExecutor;
 import org.springframework.scheduling.quartz.SpringBeanJobFactory;
 
-import javax.sql.DataSource;
+import jakarta.sql.DataSource;
 import java.util.Properties;
 
 import static org.quartz.impl.StdSchedulerFactory.AUTO_GENERATE_INSTANCE_ID;

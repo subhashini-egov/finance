@@ -48,7 +48,7 @@
 
 package org.egov.infra.web.struts.interceptors;
 
-import javax.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpServletResponse;
 
 import org.apache.struts2.ServletActionContext;
 import org.owasp.esapi.ESAPI;

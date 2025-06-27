@@ -62,7 +62,7 @@ import java.io.StringReader;
 import java.io.Writer;
 import java.util.regex.Pattern;
 
-import javax.servlet.jsp.JspException;
+import jakarta.servlet.jsp.JspException;
 
 public class EGovExcelView extends BaseExportView {
 

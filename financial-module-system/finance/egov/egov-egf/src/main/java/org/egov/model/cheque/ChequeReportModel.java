@@ -2,7 +2,7 @@ package org.egov.model.cheque;
 
 import java.util.Date;
 
-import javax.validation.constraints.NotNull;
+import jakarta.validation.constraints.NotNull;
 
 import org.egov.infra.persistence.validator.annotation.DateFormat;
 import org.hibernate.validator.constraints.SafeHtml;

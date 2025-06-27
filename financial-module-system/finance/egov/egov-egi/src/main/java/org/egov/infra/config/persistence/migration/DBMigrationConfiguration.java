@@ -59,7 +59,7 @@ import org.springframework.context.annotation.DependsOn;
 import org.springframework.core.env.ConfigurableEnvironment;
 import org.springframework.core.env.MapPropertySource;
 
-import javax.sql.DataSource;
+import jakarta.sql.DataSource;
 import java.util.ArrayList;
 import java.util.List;
 

@@ -51,7 +51,7 @@ package org.egov.infra.persistence.utils;
 import org.hibernate.Criteria;
 import org.hibernate.Query;
 
-import javax.persistence.TypedQuery;
+import jakarta.persistence.TypedQuery;
 import java.util.List;
 
 public class Page<T> {

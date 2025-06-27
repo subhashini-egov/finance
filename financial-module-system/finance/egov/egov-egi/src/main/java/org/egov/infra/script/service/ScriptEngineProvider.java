@@ -53,8 +53,8 @@ import org.egov.infra.exception.ApplicationRuntimeException;
 import org.python.core.Options;
 import org.springframework.stereotype.Component;
 
-import javax.script.ScriptEngine;
-import javax.script.ScriptEngineManager;
+import jakarta.script.ScriptEngine;
+import jakarta.script.ScriptEngineManager;
 
 @Component
 public class ScriptEngineProvider {

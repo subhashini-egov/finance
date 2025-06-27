@@ -56,7 +56,7 @@ import static org.egov.portal.util.constant.PortalConstants.STMS_URL;
 import static org.egov.portal.util.constant.PortalConstants.WATER_CHARGES;
 import static org.egov.portal.util.constant.PortalConstants.WTMS_URL;
 
-import javax.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletRequest;
 
 import org.egov.infra.config.core.ApplicationThreadLocals;
 import org.egov.infra.security.utils.SecurityUtils;

@@ -57,7 +57,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.quartz.JobDetailFactoryBean;
 import org.springframework.scheduling.quartz.SchedulerFactoryBean;
 
-import javax.sql.DataSource;
+import jakarta.sql.DataSource;
 import java.util.HashMap;
 import java.util.Map;
 

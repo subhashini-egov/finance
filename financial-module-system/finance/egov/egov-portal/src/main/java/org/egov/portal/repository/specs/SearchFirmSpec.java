@@ -52,7 +52,7 @@ import org.egov.portal.entity.Firm;
 import org.egov.portal.entity.SearchRequestFirm;
 import org.springframework.data.jpa.domain.Specification;
 
-import javax.persistence.criteria.Predicate;
+import jakarta.persistence.criteria.Predicate;
 
 public class SearchFirmSpec {
 

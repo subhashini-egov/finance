@@ -67,12 +67,12 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Map;
 
-import javax.crypto.Mac;
-import javax.crypto.spec.SecretKeySpec;
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
-import javax.persistence.Query;
-import javax.xml.bind.DatatypeConverter;
+import jakarta.crypto.Mac;
+import jakarta.crypto.spec.SecretKeySpec;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.PersistenceContext;
+import jakarta.persistence.Query;
+import jakarta.xml.bind.DatatypeConverter;
 
 import org.apache.commons.codec.DecoderException;
 import org.apache.commons.codec.binary.Hex;
